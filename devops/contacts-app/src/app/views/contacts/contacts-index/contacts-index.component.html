@@ -1,0 +1,10 @@
+<h1> Contact list</h1>
+
+
+
+
+<app-contact-list [contacts]="contacts$ | async"
+                  (onShow)="showContact($event)"
+                  (onDelete)="deleteContact($event)"
+                  (onEdit)="editContact($event)"
+></app-contact-list>
