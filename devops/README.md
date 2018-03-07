@@ -4,6 +4,8 @@ Set up a 3 tier application in AWS with FE, API, and Database. Use load balancer
 
 Pretend that there is a docker orchestrator that will be placing containers in a cluster of nodes. You only need to create one such node, and manually create the containers there that this imaginary orchestrator would for the FE and API projects.
 
+Look at devops/contacts-app-api/server/datasources.production.js to see the environment variables needed by the api.
+
 ##Details
 
 * The FE is available in contacts-app, the API in contacts-app-api.
