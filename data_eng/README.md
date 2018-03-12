@@ -1,12 +1,12 @@
 <h2>CredSimple Code Challenge</h2>
 
-This challenge has 2 parts. In the first part, we ask you to use the Luhn algorithm to evaluate the validity of an important healthcare identification number. In the second we ask you to process and organize several types of data files.
+This challenge has 2 parts. In the first part, we ask you to use the Luhn algorithm to evaluate the validity of an important healthcare identification number. In the second we ask you to process and organize several types of data files. You may choose to complete these challenges in a language of your choice. For both parts of the challenge, there must be clear instructions provided about how to run the project via a README.md file. The project must be able to be run with minimal installation required; therefore, dockerization is suggested. Unit Testing is encouraged but not required.
 
 #### Part 1 
 
 **Description:** Every healthcare provider (doctor, nurse, PA etc.) is assigned a National Provider Identifier (NPI), a unique ID number that identifies that provider nationally with the federal government. The NPI is generated and validated using the Luhn formula (which is also used for credit card numbers). Any time a user enters an NPI into any database across the healthcare system we are at risk of human error and mistyping. This has downstream impacts any time another user or system needs that data.
 
-**Instructions:** Using the PDF link below (starting halfway down the first page) and the supplied list of NPI numbers, write a program or function in your language of choice that validates whether an NPI is correct or incorrect, using the Luhn algorithm (more info in the PDF). The precise implementation of the Luhn NPI check is up to you but aim for simplicity and conciseness in the solution.
+**Instructions:** Using the PDF link below (starting halfway down the first page) and the supplied list of NPI numbers, write a program that validates whether an NPI is correct or incorrect, using the Luhn algorithm (more info in the PDF). The precise implementation of the Luhn NPI check is up to you but aim for simplicity and conciseness in the solution.
 
 **Display Requirements:** Generate a list of NPI numbers followed by a boolean value indicating whether they are valid (true) or invalid (false).
 
@@ -39,7 +39,7 @@ Resources:
 
 **Description:** Every organization in healthcare stores their data a little bit differently, but when they export it or share it, they do so in flat files. Because we are organizing and standardizing much of this data into one central place, one of CredSimple's challenges is handling all of the different file/data formats we receive.
 
-**Instructions:** In your language of choice, write a program to first assemble a single set of records by parsing data from 3 different file formats, and then display these records sorted in 3 different ways.
+**Instructions:** Write a program to first assemble a single set of records by parsing data from 3 different file formats, and then display these records sorted in 3 different ways.
 
 A record consists of the following 5 fields: last name, first name, gender, date of birth and provider type. This project folder contains 3 files, each containing records stored in a different format.
 
