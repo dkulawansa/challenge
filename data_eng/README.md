@@ -11,7 +11,7 @@ This challenge has 2 parts. In the first part, we ask you to use the Luhn algori
 **Display Requirements:** Generate a list of NPI numbers followed by a boolean value indicating whether they are valid (true) or invalid (false).
 
 Resources: 
-+ [CMS NPI Guidlines](https://www.cms.gov/Regulations-and-Guidance/HIPAA-Administrative-Simplification/NationalProvIdentStand/downloads/npicheckdigit.pdf)
++ [CMS NPI Guidlines](https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/NationalProvIdentStand/Downloads/NPIcheckdigit.pdf)
 + NPI Numbers:<br>
 1356320139<br>
 1285849489<br>
