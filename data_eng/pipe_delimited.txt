@@ -1,4 +1,4 @@
-Lee|Jonathan|M|M|PT|3-13-87
+Lee |Jonathan|M|M|PT|3-13-87
 Perez|Joanna|M|F|SLP|12-19-90
 Tepedino|Jenna|M|F|SLP|6-10-90
 Mani|Mathew|A|M|MD|12-14-64
