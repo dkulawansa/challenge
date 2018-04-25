@@ -1,10 +1,7 @@
 <h2>CredSimple Digala's Solution</h2>
-
-This challenge has 2 parts. In the first part, we ask you to use the Luhn algorithm to evaluate the validity of an important health care identification number. In the second we ask you to process and organize several types of data files. You may choose to complete these challenges in a language of your choice. For both parts of the challenge, there must be clear instructions provided about how to run the project via a README.md file. The project must be able to be run with minimal installation required; therefore, dockerization is suggested. Unit Testing is encouraged but not required.
-
 #### Part 1
 **Description:**
-Code has been written in python 3.6 but it is also compatible with python 2.7. The following NPI Numbers listed in the README.md file was copied to a text file called npi to be used with this the program. It is required to in the same folder to run the code. To run the code please type 'python check_luhn.py' (without quotes) on the command line. One test was added to test the function that does the luhn check. The test can be run by typing 'python tests.py' (without quotes)
+Code has been written in python 3.6.2 but it is also compatible with python 2.7. The following NPI Numbers listed in the README.md file was copied to a text file called npi to be used with this the program. It is required to have this file in the same folder to run the code. Once code is pulled from the github repo, to run the code please type 'python check_luhn.py' (without quotes) on the command line. One test was added to test the function that does the luhn check. The test can be run by typing 'python tests.py' (without quotes)
 
 Resources:
 + NPI Numbers:<br>
@@ -29,12 +26,22 @@ Resources:
 1215965934<br>
 1154348176
 
-python check_luhn.py
+Sample Output
+CredSimple\challenge\data_eng>python check_luhn.py
+
+NPI Number   Valid?
+==========   ======
+1356320139   True
+1285849489   True
+1265795159   False
+1922087766   True
+1932224400   False
+1467538918   True
+.........    ...
 
 #### Part 2
 **Instructions:**
-Code has been written in python 3.6 environment. Once all the files are pulled from the gitgub location it should be ready to run without installing additional software libraries. To find help please type 'python providers.py --help' (without quotes). It will display information on all the command line arguments get desired sort orders
- Every organization in healthcare stores their data a little bit differently, but when they export it or share it, they do so in flat files. Because we are organizing and standardizing much of this data into one central place, one of CredSimple's challenges is handling all of the different file/data formats we receive.
+Code has been written in python 3.6.2 environment. Once all the files are pulled from the github location it should be ready to run without installing any additional software libraries. To find help please type 'python providers.py --help' (without quotes). It will display information on how to use appropriate command line arguments to get desired sorting.
 
 Here is the program signature:
 
@@ -42,7 +49,7 @@ python providers.py --help
 usage: providers.py [-h] [--ptype_lname] [--dob] [--lastname]
 
 Displays a list of providers sorted by the following command line arguments.
-If no argument is provided it will be defaulted to ptype_lname
+If no argument is provided it will be defaulted to 'ptype_lname' sort order
 
 optional arguments:
   -h, --help     show this help message and exit
@@ -113,4 +120,3 @@ Patel, Nihal                   M  03/18/1984  MD
 Patel, Archita                 F  10/18/1986  PA
 O'Dowd, Mary                   F  01/19/1942  MD
 
-PLEASE USE PYTHON 3.6 TO RUN THE PROGRAM AND TESTS
