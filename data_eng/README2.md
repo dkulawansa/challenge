@@ -120,3 +120,22 @@ Patel, Nihal                   M  03/18/1984  MD
 Patel, Archita                 F  10/18/1986  PA
 O'Dowd, Mary                   F  01/19/1942  MD
 
+The following docker images have been created and pushed to Docker-hub at: https://hub.docker.com/r/dkulawansa/dkdockerrepo/.
+They are publically availabe:
+Exercise Part 1.
+dkulawansa/cs-exercise-luhn
+
+docker run cs-exercise-luhn
+
+Exercise Part2:
+Sorted by ProviderType and LastName
+dkulawansa/cs-exercise
+docker run cs-exercise
+
+Sorted by LastName
+dkulawansa/cs-exercise-ln
+docker run cs-exercise-ln
+
+Sorted bt date of birth
+dkulawansa/cs-exercise-dob
+docker run cs-exercise-dob
