@@ -1,3 +1,4 @@
+import sys
 from csv import reader
 
 
@@ -16,7 +17,8 @@ def main():
                 results = luhn_checksum('{}{}'.format(80840, line[0]))
                 print('{0:12} {1}'.format(line[0], results))
     except FileNotFoundError as ex:
-        raise("File with NPI numbers not found ")
+        sys.stderr.write("FileNotFoundError: Please make sure npi "
+                         "file is in the current directory")
 
 
 def luhn_checksum(npi_number):
